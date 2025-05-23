@@ -1,95 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GMLL Capital Management LLC</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background: url('gray-gradient-background-j4haxao9g3tzuyoe.jpg') no-repeat center center;
-            background-size: cover;
-            color: #fff;
-            padding: 60px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-        header p {
-            font-size: 1.2rem;
-        }
-        main {
-            flex: 1;
-            padding: 40px 20px;
-        }
-        main h2 {
-            font-size: 1.8rem;
-            color: #333; 
-            font-weight: 600;
-            margin-top: 20px;
-        }
-        main p {
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            font-size: 0.9rem;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        footer a {
-            color: #fff;
-            text-decoration: underline;
-        }
-        footer a:hover {
-            color: #ddd;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>GMLL Capital Management LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>GMLL Capital Management LLC</h1>
-        <p>Investing in Technology Companies, Cloud Infrastructure and Data Centers</p>
-    </header>
-    <main class="container">
-        <h2>About Us</h2>
-        <p>GMLL Capital Management LLC is a U.S.-based investment company specializing in technology ventures. Headquartered in Florida, we focus on investments in cloud infrastructure and data centers, empowering businesses worldwide with reliable and scalable solutions.</p>
-        
-        <h2>Our Mission</h2>
-        <p>Our mission is to drive innovation in technology by investing in critical infrastructure that supports the digital economy. We are committed to fostering growth in cloud computing and data center technologies to shape the future of connectivity and storage.</p>
-        
-        <h2>Contact Us</h2>
-        <p>If you are interested in learning more about GMLL Capital Management LLC or have a business proposal, feel free to contact us:</p>
-        <p><strong>Email:</strong> <a href="mailto:contact@gmllcapital.com">contact@gmllcapital.com</a></p>
-    </main>
-    <footer>
-        <p>&copy; 2025 GMLL Capital Management LLC. All rights reserved.</p>
-        <p><a href="mailto:contact@gmllcapital.com">Contact Us</a></p>
-    </footer>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">GMLL Capital</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary ms-lg-3">Contact Us</a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center text-white" style="background-image: url('assets/hero.jpg');">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold mb-3">Investing in the Future of Technology</h1>
+      <p class="lead mb-4">Specialized in cloud infrastructure and data centers.</p>
+      <a href="#about" class="btn btn-outline-light btn-lg">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="text-center fs-5 mx-auto" style="max-width: 720px;">
+        GMLL Capital Management LLC is an investment company based in Florida, focused on technology ventures, with a strong emphasis on cloud infrastructure and data center operations. Our mission is to empower innovation and drive sustainable growth in the digital economy.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Mission</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-cloud-upload display-4 text-primary"></i>
+          <h5 class="mt-3 fw-bold">Innovation</h5>
+          <p>Investing in critical infrastructure to support the digital economy.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-server display-4 text-primary"></i>
+          <h5 class="mt-3 fw-bold">Connectivity</h5>
+          <p>Driving growth in cloud computing and data center technologies.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <i class="bi bi-globe display-4 text-primary"></i>
+          <h5 class="mt-3 fw-bold">Global Reach</h5>
+          <p>Empowering companies worldwide with scalable and reliable solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <p class="mt-3 text-center">Email us at <a href="mailto:contact@gmllcapital.com">contact@gmllcapital.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 GMLL Capital Management LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
